@@ -1,0 +1,11 @@
+[Unit]
+Description=PulseAudio system server
+
+[Service]
+Typea=forking
+ExecStart=/usr/bin/pulseaudio --log-target=syslog --system
+ExecStop=/usr/bin/pulseaudio --kill
+TimeoutStopSec=infinity
+
+[Install]
+WantedBy=multi-user.target
