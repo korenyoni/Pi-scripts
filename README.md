@@ -6,11 +6,10 @@ Requires arp-scan.
 
 Good if you have no screen for it (remember to "touch ssh /boot/ssh"). By default uses eth0 as the interface for scanning the localnet.
 
-###Usage
+### Usage
 
-'''
-
+```
 chmod +x sshPi.sh
 ./sshPi.sh
 
-'''
+```
