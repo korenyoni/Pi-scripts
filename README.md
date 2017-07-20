@@ -1,4 +1,8 @@
-# sshPi
+# Pi Scripts
+
+A collection of scripts useful for having a raspberry pi connected to your local network
+
+## sshPi 
 
 Very simple script to find your raspberry pi on your localnet and ssh into it.
 
