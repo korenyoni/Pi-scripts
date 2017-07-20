@@ -17,3 +17,13 @@ chmod +x sshPi.sh
 ./sshPi.sh
 
 ```
+
+## Pulseaudio systemd .service file
+
+If you're streaming sound from a computer to your raspberry pi as outlined [here](https://raspberrypi.stackexchange.com/questions/11735/using-pi-to-stream-all-audio-output-from-my-pc-to-my-stereo)
+
+```
+sudo cp systemd/pulseaudio.service /etc/systemd/system/pulseaudio.service
+systemctl --system enable pulseaudio.service
+systemctl --system start pulseaudio.service
+```
